@@ -1,0 +1,44 @@
+.header{
+    border: 1px solid red;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 50px;
+    font-family: var(--letter-title);
+    height: 120px;
+}
+
+/* .imgLogo{
+}
+ */
+
+.imgLogo{
+    height: 100%;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+}
+
+.links{
+    color: var(--color-black);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.tel{
+    display: flex;
+    column-gap: 20px;
+    
+}
+.number{
+    font-weight: 300;
+}
+
+.usercartshop{
+    display: flex;
+    column-gap: 20px;
+}
